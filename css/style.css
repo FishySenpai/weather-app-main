@@ -1,0 +1,115 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust this value for your desired width */
+  max-width: 700px; /* Ensures the card doesn't get too wide on large screens */
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.weather,
+.weekly-weather {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather .flex,
+.weekly-weather .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather .icon,
+.weekly-weather .icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.weekly-weather .forecast-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.forecast-item {
+  flex: 1 1 100px; /* Adjust width based on number of items per row */
+  background: #e7e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forecast-item h3 {
+  margin: 0 0 5px 0;
+  font-size: 1em;
+}
+
+.forecast-item .icon {
+  width: 40px;
+  height: 40px;
+}
+
+.forecast-item .forecast-temp {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+.forecast-item .forecast-weekly-temp {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 30px;
+}
+.forecast-item .forecast-min-temp {
+  margin: 0;
+  padding: 0;
+  color: #555;
+}
+.forecast-item .forecast-max-temp {
+  margin: 0;
+  padding: 0;
+}
+
+.forecast-item .forecast-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.hourly-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
