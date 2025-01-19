@@ -11,7 +11,7 @@ Simple weather app made with electron and 💖
 ### Windows (on powershell.exe)
 ```powershell
 cd 
-git clone https://github.com/ekinakkaya/weather-app.git
+git clone https://github.com/FishySenpai/weather-app-main.git
 cd weather-app
 ```
 ```powershell
